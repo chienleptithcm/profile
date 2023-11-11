@@ -50,3 +50,11 @@ $(document).ready(function() {
     )
 });
 
+function openMessenger() {
+    
+    // Mở trang Messenger trong một cửa sổ mới
+    var messengerUrl = "https://www.facebook.com/messages/t/100015106666101https://www.facebook.com/messages/t/100015106666101";
+    // // Tạo đường dẫn tới trang gửi tin nhắn của Facebook
+    // var messengerUrl = 'https://m.me/' + facebookPageIdOrUsername + '?ref=' + encodeURIComponent(message);
+    window.open(messengerUrl, '_blank');
+}
